@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
-import 'package:state_management/counter_model.dart';
 
 //состояние которое мы пробрасываем
 class InheritedCounter extends InheritedWidget {

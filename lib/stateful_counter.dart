@@ -1,7 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
-import 'package:state_management/counter_model.dart';
-import 'package:state_management/main.dart';
 
 class StatefulCounter extends StatefulWidget {
   const StatefulCounter({super.key});
