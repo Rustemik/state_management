@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:state_management/counter_getx.dart';
+import 'package:state_management/counter_getx_rx.dart';
 import 'package:state_management/counter_riverpod.dart';
 import 'package:state_management/models/counter_model.dart';
 import 'package:state_management/counter_provider.dart';
@@ -25,6 +27,8 @@ class CounterPage extends StatelessWidget {
               InheritedCounterImp(),
               ProviderCounter(),
               RiverpodCounter(),
+              CounterGetx(),
+              CounterGetxRx(),
             ],
           ),
         ),

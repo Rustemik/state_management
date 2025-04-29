@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
-import 'package:state_management/models/counter_model.dart';
 import 'package:state_management/counter_page.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
