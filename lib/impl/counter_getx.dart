@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:state_management/models/counter_controller.dart';
+import 'package:state_management/impl/models/counter_controller.dart';
 
 class CounterGetx extends StatelessWidget {
   final controller = Get.put(CounterController());
